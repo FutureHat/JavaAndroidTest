@@ -50,7 +50,6 @@ public class NewAdapter extends RecyclerView.Adapter<NewAdapter.NewViewHolder> {
         editor.putString("players", playerholder);
         editor.putString("scores", scoreholder);
         editor.commit();
-        Log.d("please", sharedPreferences.getString("players", ""));
         holder.names.setText(apiObject.getPlayerName()+"\n"+apiObject.getScore());
 
     }

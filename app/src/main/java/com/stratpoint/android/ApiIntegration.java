@@ -31,7 +31,6 @@ public class ApiIntegration extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Log.d("hehehe","WAAAAT");
         recyclerView = (RecyclerView) findViewById(R.id.recycler_id);
         LinearLayoutManager linearLayoutManager = new LinearLayoutManager(this);
         recyclerView.setLayoutManager(linearLayoutManager);
