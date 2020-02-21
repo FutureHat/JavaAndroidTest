@@ -1,0 +1,2 @@
+include ':app', ':WarmUpExercise'
+rootProject.name='Jonas Jacinto Test'
